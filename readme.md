@@ -5,7 +5,7 @@
 ## About this helper
 
 This CodeIgniter's helper checks whether the user likes or not the Fan Page.  
-*Note:* the current method will only work if the platform is a Page Tab.
+**Note:** the current method will only work if the platform is a Page Tab.
 
 Its usage is recommended for CodeIgniter 2 or greater.
 
@@ -14,7 +14,7 @@ Its usage is recommended for CodeIgniter 2 or greater.
 ```php
 $this->load->helper('likegate_tab');
 
-if(like_status()) {
+if( like_status() ) { // returns TRUE or FALSE
     echo "The user likes the current Fan Page.";
 } else {
     echo "The user does not like the current Fan Page.";
