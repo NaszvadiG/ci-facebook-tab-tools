@@ -49,4 +49,8 @@ if( admin_status() ) { // returns TRUE or FALSE
 $user_id = get_user_id();
 ```
 
+## Add a new Page Tab
+
+* [https://www.facebook.com/dialog/pagetab?app_id=YOUR_APP_ID&next=YOUR_URL](https://www.facebook.com/dialog/pagetab?app_id=YOUR_APP_ID&next=YOUR_URL)
+
 ![Ale Mohamad](http://alemohamad.com/github/logo2012am.png)
